@@ -10,14 +10,14 @@
 
 - Desktop-view:
 <div>
-  <img src="https://github.com/JeloRisk/html-css-js-repository/blob/main/handsUp-website/assets/screenshots/handsUp-website-sc(2).png" alt="Main Screen" height="700dp">
+  <img src="https://github.com/marloqwerty/handsUp-website/blob/main/assets/screenshots/handsUp-website-sc(2).png" alt="Main Screen" height="700dp">
 </div>
 
 ---
 
 - Mobile-view:
 <div>
-  <img src="https://github.com/JeloRisk/html-css-js-repository/blob/main/handsUp-website/assets/screenshots/handsUp-website-sc(1).png" alt="Main Screen" height="700dp">
+  <img src="https://github.com/marloqwerty/handsUp-website/blob/main/assets/screenshots/handsUp-website-sc(1).png" alt="Main Screen" height="700dp">
 </div>
 
 ## Time :

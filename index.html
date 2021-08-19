@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HandsUp!</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <header>
+
+
+        <a href="#" class="logo">HandsUp!</a>
+        <div class="main-navigation">
+            <ul class="navigation">
+                <li>Explore</li>
+                <li>Teachers</li>
+                <li>Business</li>
+
+            </ul>
+            <div class="button-header">
+                <button>Log in</button>
+                <button>Join</button>
+            </div>
+        </div>
+        <div class="menuToggle" onclick="toggleMenu()"></div>
+    </header>
+    <section class="landing-page1">
+        <img src="assets/rectangle2.png" alt="">
+        <div class="landing-page-content">
+            <div class="landing-page-content-text">
+                <h1>Every Hand on Deck</h1>
+                <p>Do you want to raise your business career?</p>
+                <a href="#menu" class="btn">Get Started</a>
+            </div>
+            <div class="landing-page-content-img">
+
+            </div>
+        </div>
+        <img src="assets/rectangle.png" alt="">
+    </section>
+
+    <section class="section landing-page-solution">
+        <h2>Hold my Hand...</h2>
+        <p>We are eager to assist you in developing you as an art for your business career.</p>
+        <div class="solutions-container container"></div>
+    </section>
+    <section class="section landing-page2">
+        <div class="box">
+            <div class="box1">
+                <figure>
+                </figure>
+                <div class="innerBox">
+                    <p style="font-weight: bold; width: 50%; text-align: center;">Watch Video</p>
+                    <iframe class="intro-video" src="https://www.youtube.com/embed/9xwazD5SyVg"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+                    <!-- css inline style should not use. Move it in the external file -->
+                </div>
+            </div>
+            <div class="box2">
+                <div class="innerBox2">
+                    <p>Learn a new skill</p>
+                    <p>Create a Portfolio</p>
+                    <p style="font-weight: bold;">Ready to be Employed</p>
+                    <a href="#menu" class="btn">Get Started</a>
+                </div>
+                <figure>
+
+                </figure>
+            </div>
+        </div>
+    </section>
+
+    <section class="section landing-page-featured-courses">
+        <h2>Featured Courses</h2>
+        <p>Look through our schools to discover the right program for you.</p>
+        <div class="courses-container container"></div>
+    </section>
+
+
+    <section class="section landing-page-testimonial">
+        <h2>What Former Students Say</h2>
+        <div class="testimonials-container-main">
+            <div class="testimonials-container">
+
+            </div>
+            <div class="testimonials-button-container">
+
+                <button class="prev-btn">&#8592</button>
+                <button class="next-btn">&#8594</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="section landing-page-global-footer">
+        <div class="seo">
+            <div class="contentBx">
+                <h3>HandsUp</h3>
+                <ul class="column handsUP">
+
+                    <li>About</li>
+                    <li>What We Offer</li>
+                    <li>Leadership</li>
+                    <li>Careers</li>
+                    <li>Catalog</li>
+                    <li>HandsUp Plus</li>
+                    <li> Certificates </li>
+                    <li>Degrees</li>
+                    <li>For Enterprise</li>
+                    <li>For Government</li>
+                    <li>For Campus</li>
+                </ul>
+            </div>
+            <div class="contentBx">
+                <h3>Community</h3>
+                <ul class="column community">
+
+                    <li>Learners</li>
+                    <li>Partners</li>
+                    <li>Developers</li>
+                    <li>Beta Tester</li>
+                    <li>Translator</li>
+                    <li>Blog</li>
+                    <li> Tech Blog </li>
+                    <li>Teaching Center</li>
+                </ul>
+            </div>
+            <div class="contentBx">
+                <h3>More</h3>
+                <ul class="column more">
+
+                    <li>Press</li>
+                    <li>Investors</li>
+                    <li>Terms</li>
+                    <li>Privacy</li>
+                    <li>Help</li>
+                    <li>Accessibility</li>
+                    <li>Contact</li>
+                    <li>Articles</li>
+                    <li>Directory</li>
+                    <li>Affiliates</li>
+                </ul>
+            </div>
+            <div class="contentBx">
+                <h3>Support</h3>
+                <ul class="column support">
+
+                    <li>C ontact Us</li>
+                    <li>Help and FAQ</li>
+                    <li>Service Status</li>
+                    <li>Tech Requirements</li>
+                </ul>
+            </div>
+
+        </div>
+        <div class="social-media-footer">
+            <h4>&#169 2021 HandsUp!</h4>
+            <div class="social-media-container">
+                <img src="assets/facebook logo.svg" alt="facebook-icon">
+                <img src="assets/twitter logo.svg" alt="twitter-icon">
+                <img src="assets/instagram logo.svg" alt="instagram-icon">
+                </di>
+
+
+            </div>
+    </section>
+    <script type="module" src="script.js"></script>
+    <script>
+        window.addEventListener('scroll', function () {
+            const header = document.querySelector('header');
+            const lengthOfTheScreen = screen.height;
+            header.classList.toggle("sticky", window.scrollY > lengthOfTheScreen / 4);
+
+        });
+
+        function toggleMenu() {
+            const menuToggle = document.querySelector('.menuToggle');
+            const buttonHeader = document.querySelector(".button-header");
+            const navigation = document.querySelector('.main-navigation');
+            menuToggle.classList.toggle('active');
+            navigation.classList.toggle('active');
+        }
+
+    </script>
+</body>
+
+</html>

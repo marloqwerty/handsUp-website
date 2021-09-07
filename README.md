@@ -1,4 +1,4 @@
-# modified-palindrome-program
+# HandsUp!
 
 [Github Page](https://marloqwerty.github.io/handsUp-website/)
 
